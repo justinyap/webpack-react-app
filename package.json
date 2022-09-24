@@ -1,0 +1,15 @@
+{
+  "name": "webpack-react-app",
+  "description": "React App with Webpack",
+  "version": "0.0.0",
+  "main": "",
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "license": "",
+  "private": true
+}
