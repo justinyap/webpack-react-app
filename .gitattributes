@@ -6,6 +6,24 @@
 # The above will handle all files NOT found below.
 #
 
+# Sources
+*.htm           text diff=html
+*.html          text diff=html
+*.css           text diff=css
+*.js            text
+*.jsx           text
+*.ts            text
+*.tsx           text
+*.json          text
+
+# Graphics
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.ico           binary
+*.svg           text
+
 # Miscellaneous
 .gitattributes  text
 .gitignore      text
