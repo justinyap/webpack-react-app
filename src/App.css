@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 1.875rem;
+  font-weight: 300;
+  color: #d4d4d4;
+  filter:
+    drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+.title-404 {
+  font-family: sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #d4d4d4;
+  filter: 
+    drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) 
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}

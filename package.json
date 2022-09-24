@@ -2,7 +2,7 @@
   "name": "webpack-react-app",
   "description": "React App with Webpack",
   "version": "0.0.0",
-  "main": "",
+  "main": "src/index.js",
   "scripts": {
     "start": ""
   },
