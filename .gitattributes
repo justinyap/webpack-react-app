@@ -1,0 +1,12 @@
+# Auto-detect text files and normalize their line endings to LF,
+# binary files will remain untouched.
+*               text=auto
+
+#
+# The above will handle all files NOT found below.
+#
+
+# Miscellaneous
+.gitattributes  text
+.gitignore      text
+*.md            text diff=markdown
