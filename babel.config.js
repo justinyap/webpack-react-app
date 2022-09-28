@@ -1,4 +1,6 @@
-/* https://babeljs.io/docs/en/ */
+// https://babeljs.io/docs/en/
+
+"use strict";
 
 module.exports = {
   presets: [

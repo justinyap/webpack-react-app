@@ -1,4 +1,6 @@
-/* https://eslint.org/docs/ */
+// https://eslint.org/docs/
+
+"use strict";
 
 module.exports = {
   env: {
@@ -42,6 +44,12 @@ module.exports = {
   settings: {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx"],
+      },
     },
   },
   overrides: [],

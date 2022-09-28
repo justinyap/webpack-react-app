@@ -1,4 +1,6 @@
-/* https://webpack.js.org/configuration/ */
+// https://webpack.js.org/configuration/
+
+"use strict";
 
 const path = require("path");
 
@@ -10,11 +12,12 @@ module.exports = {
     main: "./src/index.js",
   },
   output: {
-    filename: "bundle.js",
     path: path.resolve(__dirname, "build"),
+    filename: "bundle.js",
     publicPath: "/",
   },
   resolve: {
+    modules: [path.join(__dirname, "src"), "node_modules"],
     extensions: [".js", ".jsx", ".json"],
   },
   module: {
